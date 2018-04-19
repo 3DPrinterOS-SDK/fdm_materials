@@ -5,7 +5,7 @@
       <brand>KODAK</brand>
       <material>PVA</material>
       <color>Generic</color>
-      <label>Custom Material</label>
+      <label>PVA</label>
     </name>
     <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
     <compatible>True</compatible>
