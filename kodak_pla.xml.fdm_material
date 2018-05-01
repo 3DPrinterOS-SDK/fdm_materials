@@ -27,5 +27,8 @@
     <setting key="retraction speed">30.0</setting>
     <setting key="heated bed temperature">70.0</setting>
     <setting key="print temperature">225.0</setting>
+    <machine>
+            <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
+    </machine>
   </settings>
 </fdmmaterial>
