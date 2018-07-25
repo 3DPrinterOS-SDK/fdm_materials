@@ -8,7 +8,7 @@
             <label>Novamid1070</label>
         </name>
         <GUID>edcde954-ee11-4a23-9f11-56d2aa03284b</GUID>
-        <version>1</version>
+        <version>2</version>
         <color_code>#f395f9</color_code>
     </metadata>
     <properties>
@@ -31,11 +31,11 @@
                 <setting key="hardware compatible">yes</setting>
                 <setting key="retraction amount">1.0</setting>
             </hotend>
-            <hotend id="0.4 mm">
+            <hotend id="0.4mm thermoplastic extruder">
                 <setting key="hardware compatible">yes</setting>
                 <setting key="retraction amount">1.0</setting>
             </hotend>
-            <hotend id="0.8 mm">
+            <hotend id="0.8mm thermoplastic extruder">
                 <setting key="hardware compatible">yes</setting>
                 <setting key="retraction amount">1.5</setting>
             </hotend>
