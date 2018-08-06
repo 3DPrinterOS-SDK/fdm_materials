@@ -3,29 +3,29 @@
   <metadata>
     <name>
       <brand>KODAK</brand>
-      <material>PVA</material>
+      <material>PLA+</material>
       <color>Generic</color>
-      <label>PVA</label>
+      <label>PLA+</label>
     </name>
-    <description>Water soluble support material. PVA is a matching support material for PLA, CPE and Nylon</description>
+    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
     <compatible>True</compatible>
-    <GUID>8cb1b2cb-49f2-4946-8af8-7bdf2368f0e7</GUID>
+    <GUID>5eb25aee-2686-4c2f-a7da-bcb15e3f5ff3</GUID>
     <definition>fdmprinter</definition>
-    <color_code>#ff0000</color_code>
+    <color_code>#ffc924</color_code>
     <version>4</version>
     <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
   </metadata>
   <properties>
-    <density>1.23</density>
+    <density>1.24</density>
     <diameter>2.85</diameter>
   </properties>
   <settings>
     <setting key="print temperature">215.0</setting>
-	<setting key="heated bed temperature">60.0</setting>
+	<setting key="heated bed temperature">70.0</setting>
 	<setting key="retraction amount">6.5</setting>
     <setting key="retraction speed">25</setting>
     <setting key="standby temperature">175</setting>
-	<setting key="print cooling">50</setting>
+	<setting key="print cooling">100</setting>
     <machine>
             <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
     </machine>

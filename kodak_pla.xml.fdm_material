@@ -20,9 +20,12 @@
     <diameter>2.85</diameter>
   </properties>
   <settings>
-    <setting key="standby temperature">175.0</setting>
-    <setting key="heated bed temperature">60.0</setting>
     <setting key="print temperature">200.0</setting>
+	<setting key="heated bed temperature">60.0</setting>
+	<setting key="retraction amount">6.5</setting>
+    <setting key="retraction speed">25</setting>
+    <setting key="standby temperature">175</setting>
+	<setting key="print cooling">100</setting>
     <machine>
             <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
     </machine>
