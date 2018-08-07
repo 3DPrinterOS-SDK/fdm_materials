@@ -25,7 +25,7 @@
 	<setting key="retraction amount">8.00</setting>
     <setting key="retraction speed">25</setting>
     <setting key="standby temperature">175</setting>
-	<setting key="print cooling">40</setting>
+	<setting key="print cooling">100</setting>
     <machine>
             <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
     </machine>
