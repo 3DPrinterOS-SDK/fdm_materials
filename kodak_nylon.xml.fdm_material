@@ -5,14 +5,11 @@
       <brand>KODAK</brand>
       <material>Nylon</material>
       <color>Generic</color>
-      <label>Nylon</label>
     </name>
     <description>Nylon is strong, abrasion-resistant, durable and engineered for low moisture sensitivity.</description>
-    <compatible>True</compatible>
-    <GUID>28fb4162-db74-49e1-9008-d05f1e8bef5c</GUID>
-    <definition>fdmprinter</definition>
+    <GUID>e32399b2-3b99-4707-aaa4-ce1a417d13d2</GUID>
     <color_code>#3DF266</color_code>
-    <version>4</version>
+    <version>5</version>
     <adhesion_info>Use glue.</adhesion_info>
   </metadata>
   <properties>
@@ -20,14 +17,11 @@
     <diameter>1.75</diameter>
   </properties>
   <settings>
-	<setting key="print temperature">245.0</setting>
-	<setting key="heated bed temperature">60.0</setting>
-	<setting key="retraction amount">8.00</setting>
+    <setting key="print temperature">245.0</setting>
+    <setting key="heated bed temperature">60.0</setting>
+    <setting key="retraction amount">8.00</setting>
     <setting key="retraction speed">25</setting>
     <setting key="standby temperature">175</setting>
-	<setting key="print cooling">100</setting>
-    <machine>
-            <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
-    </machine>
+    <setting key="print cooling">100</setting>
   </settings>
 </fdmmaterial>

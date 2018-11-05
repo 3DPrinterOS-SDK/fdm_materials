@@ -9,8 +9,8 @@ Generic Tough PLA profile. The data in this file may not be correct for your spe
             <material>PLA Tough</material>
             <color>Generic</color>
         </name>
-        <GUID>9d5d2d7c-4e77-441c-85a0-e9eefd4aa68c</GUID>
-        <version>7</version>
+        <GUID>5e113912-b238-415f-be17-287519f72e7f</GUID>
+        <version>10</version>
         <color_code>#ffc9f0</color_code>
         <description>Technical PLA material with toughness similar to ABS. Ideal for reliably printing functional prototypes and tooling at larger sizes, PLA Tough offers the same safe and easy use as regular PLA.</description>
         <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
@@ -21,13 +21,10 @@ Generic Tough PLA profile. The data in this file may not be correct for your spe
     </properties>
     <settings>
         <setting key="print temperature">225.0</setting>
-		<setting key="heated bed temperature">60.0</setting>
-		<setting key="retraction amount">6.5</setting>
-		<setting key="retraction speed">25</setting>
-		<setting key="standby temperature">175</setting>
-		<setting key="print cooling">100</setting>
-		<machine>
-            <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
-		</machine>
+        <setting key="heated bed temperature">60.0</setting>
+        <setting key="retraction amount">6.5</setting>
+        <setting key="retraction speed">25</setting>
+        <setting key="standby temperature">175</setting>
+        <setting key="print cooling">100</setting>
     </settings>
 </fdmmaterial>

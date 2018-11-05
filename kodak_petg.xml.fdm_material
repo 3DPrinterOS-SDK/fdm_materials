@@ -9,8 +9,8 @@ KODAK PETG profile. The data in this file may not be correct for your specific m
             <material>PET-G</material>
             <color>Generic</color>
         </name>
-        <GUID>4f7c683a-f030-46d9-ad81-b4c3367c3dfe</GUID>
-        <version>2</version>
+        <GUID>4e886880-658d-42f7-83ed-ee8901a0999b</GUID>
+        <version>5</version>
         <color_code>#ff5086</color_code>
         <description>PET-G profile. The data in this file may not be correct for your specific machine.</description>
         <adhesion_info>Set your prime speed to a low value (8mm/sec)</adhesion_info>
@@ -21,13 +21,10 @@ KODAK PETG profile. The data in this file may not be correct for your specific m
     </properties>
     <settings>
         <setting key="print temperature">215.0</setting>
-		<setting key="heated bed temperature">70.0</setting>
-		<setting key="retraction amount">6.5</setting>
-		<setting key="retraction speed">25</setting>
-		<setting key="standby temperature">120</setting>
-		<setting key="print cooling">100</setting>
-		<machine>
-            <machine_identifier manufacturer="KODAK" product="KODAK Portrait"/>     			
-		</machine>
+        <setting key="heated bed temperature">70.0</setting>
+        <setting key="retraction amount">6.5</setting>
+        <setting key="retraction speed">25</setting>
+        <setting key="standby temperature">120</setting>
+        <setting key="print cooling">100</setting>
     </settings>
 </fdmmaterial>
