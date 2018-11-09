@@ -6,7 +6,7 @@
       <material>PLA+</material>
       <color>Generic</color>
     </name>
-    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <description>PLA+ is an improved version of PLA, suitable for replacing ABS in many aspects. It provides great visual quality and has very low shrinkage and warp. It has the high impact resistance of ABS. Its impact resistance is up to nine times that of regular PLA. It has fast crystallization, which enables printing without support and with very fine detail. Ideal for high resolution or fast printing.</description>
     <GUID>56c26807-ddee-4f72-b42a-17419fee96db</GUID>
     <color_code>#ffc924</color_code>
     <version>5</version>
