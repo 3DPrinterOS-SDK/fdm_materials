@@ -6,10 +6,10 @@
         <material>PVA</material>
         <color>Generic</color>
     </name>
-    <description>Water soluble support material. PVA is a matching support material for PLA, CPE and Nylon</description>
+    <description>A filament specifically created to use as a support material for hard-to-print objects. It is mainly used in conjunction with PLA, though it can be used with other materials. The material is dissolvable in water, and enables you to easily print objects that would not be possible by other methods. As the material is sensitive to moisture, it must be stored in airtight containers. For dual-printing sessions, cool-down of the extruder is recommended whilst not in use.</description>
     <GUID>6ef9df64-ea45-43b9-80fd-a1e6b7b9a5fa</GUID>
     <color_code>#ff0000</color_code>
-    <version>5</version>
+    <version>6</version>
     <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
     </metadata>
         <properties>

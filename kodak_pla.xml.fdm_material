@@ -9,7 +9,7 @@
     <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
     <GUID>4b93ed0a-1048-4979-bc0d-ddb87acbfe3e</GUID>
     <color_code>#ffc924</color_code>
-    <version>5</version>
+    <version>6</version>
     <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
   </metadata>
   <properties>

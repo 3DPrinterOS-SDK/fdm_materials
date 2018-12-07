@@ -9,7 +9,7 @@
     <description>TPU or Flex opens up a great deal of interesting shatter-resistant and bendable objects. You can make living hinges with it, and combine it with rigid plastics. You cannot make breakaway supports with it but you can easily clip the supports with a knife. Its high interlayer adhesion prevents objects from easily breaking along the Z axis..</description>
     <GUID>ae50808a-dfc0-4915-92ba-309c9f4aaaa0</GUID>
     <color_code>#3DF266</color_code>
-    <version>5</version>
+    <version>6</version>
     <adhesion_info>Use glue.</adhesion_info>
   </metadata>
   <properties>

@@ -10,10 +10,10 @@ KODAK PETG profile. The data in this file may not be correct for your specific m
             <color>Generic</color>
         </name>
         <GUID>4e886880-658d-42f7-83ed-ee8901a0999b</GUID>
-        <version>5</version>
+        <version>6</version>
         <color_code>#ff5086</color_code>
-        <description>PET-G profile. The data in this file may not be correct for your specific machine.</description>
-        <adhesion_info>Set your prime speed to a low value (8mm/sec)</adhesion_info>
+        <description>An easy to use material that has many benefits. It is stronger and more temperature resistant than PLA. Compared with ABS it is just as strong ABS but can be printed with much less warping, as well as having the benefit of being odourless. PETG is used for many applications due to its good mechanical and aesthetic characteristics. It is often used for applications which need to contain food and water. It is recommended the filament is kept in a dry container.</description>
+        <adhesion_info>It is important to tune the retraction settings to reduce stringing.</adhesion_info>
     </metadata>
     <properties>
         <density>1.38</density>

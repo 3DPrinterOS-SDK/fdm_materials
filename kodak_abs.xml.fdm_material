@@ -6,14 +6,14 @@
       <material>ABS</material>
       <color>Generic</color>
     </name>
-    <description>Tough and durable. ABS is good for mechanical parts. It is impact resistant, dimensionally stable and handles temperatures up to 85ยบC.</description>
+    <description>ABS is a commonly used filament suitable for making more durable and stronger parts than with PLA, as it can stand higher temperatures, it is slightly more flexible and can be easily painted. It can be treated with acetone or acetone vapor to give it a glossy finish (be careful!) and to make the object stronger, or to solidly glue parts together. Use HIPS as support material for printing ABS. ABS shrinks when it cools so you should use an enclosed printer with warm and steady air temperature (>25°C) in order to prevent delamination or warping.</description>
     <adhesion_info>Use glue, to avoid chipping of the glass.</adhesion_info>
     <GUID>18525fc2-85ba-49d4-b59d-66899f562593</GUID>
     <color_code>#00aa00</color_code>
-    <version>5</version>
+    <version>6</version>
   </metadata>
   <properties>
-    <density>1.10</density>
+    <density>1.03</density>
     <diameter>1.75</diameter>
   </properties>
   <settings>

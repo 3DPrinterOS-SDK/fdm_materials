@@ -9,14 +9,14 @@ Generic Tough PLA profile. The data in this file may not be correct for your spe
             <material>PLA Tough</material>
             <color>Generic</color>
         </name>
-        <GUID>5e113912-b238-415f-be17-287519f72e7f</GUID>
-        <version>10</version>
+        <GUID>51739dbe-116f-45e1-a1c9-1e78375aad83</GUID>
+        <version>11</version>
         <color_code>#ffc9f0</color_code>
-        <description>Technical PLA material with toughness similar to ABS. Ideal for reliably printing functional prototypes and tooling at larger sizes, PLA Tough offers the same safe and easy use as regular PLA.</description>
-        <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+        <description>PLA tough is an improved version of PLA and superior to PLA+, made with the very best material available.</description>
+        <adhesion_info>Do not use in direct contact with food.</adhesion_info>
     </metadata>
     <properties>
-        <density>1.24</density>
+        <density>1.22</density>
         <diameter>1.75</diameter>
     </properties>
     <settings>
