@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material">
+  <metadata>
+    <name>
+      <brand>Generic</brand>
+      <material>Acrylic</material>
+      <color>Generic</color>
+    </name>
+    <description></description>
+    <GUID>c14af472-7845-4143-a738-a10ad963267f</GUID>
+    <color_code>#3DF266</color_code>
+    <version>6</version>
+    <adhesion_info></adhesion_info>
+  </metadata>
+  <properties>
+    <density>1.16</density>
+    <diameter>1.75</diameter>
+  </properties>
+  <settings>
+    <setting key="print temperature">205.0</setting>
+    <setting key="heated bed temperature">110.0</setting>
+    <setting key="retraction amount">5.5</setting>
+    <setting key="retraction speed">300</setting>
+    <setting key="standby temperature">160</setting>
+    <setting key="print cooling">100</setting>
+  </settings>
+</fdmmaterial>
