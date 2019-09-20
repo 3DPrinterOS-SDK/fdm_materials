@@ -6,14 +6,14 @@
       <material>Acrylic</material>
       <color>Generic</color>
     </name>
-    <description></description>
-    <GUID>c14af472-7845-4143-a738-a10ad963267f</GUID>
+    <description>Acrylic is a very hard material, a good light transmitter, insoluble in water but soluble in non-aqueous solvents such as acetone. It has extraordinary characteristics to make models with bridges (it cools very quickly). It shows very little contraction, so it is not prone to deformation or delamination. It does not require a closed chamber or high extrusion temperatures.</description>
+    <GUID>b0221f26-a229-4af3-ac73-35e7c48376fe</GUID>
     <color_code>#3DF266</color_code>
     <version>6</version>
-    <adhesion_info></adhesion_info>
+    <adhesion_info>uses very little or no layer cooling as it cools and solidifies very quickly. Ideal for mobile composite parts due to its low coefficient of friction. It is a very rigid material, ideal for project parts that need to stay sturdy though mechanical stress: gears, threads, screws. It is very useful for projects such as lamp cover replacements, light covers, etc, due to its transparency and quality of driving the light. Remarkable quality: it is transparent to IR light.</adhesion_info>
   </metadata>
   <properties>
-    <density>1.16</density>
+    <density>1.19</density>
     <diameter>1.75</diameter>
   </properties>
   <settings>
