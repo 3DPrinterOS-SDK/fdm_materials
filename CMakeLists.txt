@@ -1,4 +1,4 @@
-project(fdm_materials NONE)
+project(fdm-materials NONE)
 
 cmake_minimum_required(VERSION 2.8.12)
 
@@ -16,7 +16,7 @@ else()
     set(INSTALL_PATH "share/fdm_materials"
         CACHE STRING
         "Destination to install the materials to. Should be relative to CMAKE_INSTALL_PREFIX")
-    
+
     if(IS_ABSOLUTE ${INSTALL_PATH})
         set(INSTALL_PATH ${INSTALL_PATH})
     else()
@@ -25,6 +25,13 @@ else()
 endif()
 
 file(GLOB _files *.fdm_material *.sig)
+
+# Determine version number
+find_package(Git)
+
+if (DEFINED ENV{GITHUB_ACTIONS})
+    set(CPACK_PACKAGE_VERSION "${GIT_VERSION}+$ENV{GITHUB_SHA}")
+endif()
 
 install(FILES ${_files} DESTINATION ${INSTALL_PATH})
 

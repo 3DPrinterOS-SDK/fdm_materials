@@ -1,19 +1,21 @@
-#!/usr/bin/env python
+# This script is dedicated to the public domain under the terms of the CC0 license.
+
 from collections import OrderedDict
 import os
 import sys
 import re
+from typing import Optional
 
 
 class MaterialProfilesValidator:
 
-    def __init__(self, root_dir: str):
+    def __init__(self, root_dir: str) -> None:
         self._repo_dir = os.path.abspath(root_dir)
         self._materials_dir = self._repo_dir
 
         self._guid_pattern = re.compile(r"<GUID>.*</GUID>")
 
-    def _get_guid(self, content: str) -> str:
+    def _get_guid(self, content: str) -> Optional[str]:
         guid = None
         for line in content.splitlines():
             line = line.strip()
@@ -22,7 +24,7 @@ class MaterialProfilesValidator:
                 break
         return guid
 
-    def get_materials_dir(self, dirpath: str):
+    def get_materials_dir(self, dirpath: str) -> str:
         for root_dir, dirnames, filenames in os.walk(dirpath):
             has_materials_file = any(fn.endswith(".xml.fdm_material") for fn in filenames)
             if not has_materials_file:
@@ -32,10 +34,9 @@ class MaterialProfilesValidator:
 
             return dirpath
 
+    ##  Validates the preset settings files and returns ``True`` or ``False``
+    #   indicating whether there are invalid files.
     def validate(self) -> bool:
-        """
-        Validates the preset settings files and returns True or False indicating whether there are invalid files.
-        """
         # parse the definition file
         guid_dict = OrderedDict()
 
@@ -46,7 +47,6 @@ class MaterialProfilesValidator:
             for filename in filenames:
                 file_path = os.path.join(materials_dir, filename)
                 if not filename.endswith(".xml.fdm_material"):
-                    print("Skipping \"%s\"" % filename)
                     continue
 
                 with open(file_path, "r", encoding = "utf-8") as f:
