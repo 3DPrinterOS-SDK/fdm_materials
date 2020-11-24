@@ -7,10 +7,10 @@
       <color>Generic</color>
       <label>Prototyper M-Soft</label>
     </name>
-    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <description></description>
     <version>7</version>
     <GUID>e6a52920-2ebf-46bc-b9f9-d84af5380b0c</GUID>
-    <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+    <adhesion_info></adhesion_info>
     <color_code>#ffc924</color_code>
   </metadata>
   <properties>
